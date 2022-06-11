@@ -26,21 +26,21 @@ const Header = () => {
             </li>
             <li className="header__item header__d-block">
               <a href="#" className="header__link">
-                <i class="bi bi-chat"></i>
+                <i className="bi bi-chat"></i>
                 <p>Xabarlar</p>
               </a>
             </li>
             <li className="header__item header__d-block">
               <a href="#" className="header__link">
                 <div className="header__heartb0x">
-                  <i class="bi bi-heart"></i>
+                  <i className="bi bi-heart"></i>
                   <span>0</span>
                 </div>
               </a>
             </li>
             <li className="header__item">
               <a href="#" className="header__link">
-                <i class="bi bi-person"></i>
+                <i className="bi bi-person"></i>
                 <select
                   name="select"
                   id="header__select"

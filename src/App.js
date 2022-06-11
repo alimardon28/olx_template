@@ -1,9 +1,12 @@
 import './App.css';
+import { Routes, Route } from "react-router-dom";
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import Search from './Components/SearchBar/Search';
 import Categories from './Components/Categories/Categories';
 import Home from './Pages/Home/Home';
+import Product from './Pages/Products/Product'
+
 
 function App() {
   return (
@@ -11,7 +14,11 @@ function App() {
       <Header/>
         <Search/>
         <Categories/>
-        <Home/>
+        <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/posts/:productId' element={<Product/>}/>
+        </Routes>
+
     </div>
   );
 }

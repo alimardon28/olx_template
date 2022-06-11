@@ -25,25 +25,25 @@ const Categories = () => {
             <li className="categories__item">
               <a href="#" className="categories__link">
                 <img src={kluch} alt="" className="categories__img" />
-                <p>ko'chmas mulk</p>
+                <p className="categories__desc">ko'chmas mulk</p>
               </a>
             </li>
             <li className="categories__item">
               <a href="#" className="categories__link">
                 <img src={car} alt="" className="categories__img" />
-                <p>transport</p>
+                <p className="categories__desc">transport</p>
               </a>
             </li>
             <li className="categories__item">
               <a href="#" className="categories__link">
                 <img src={popka} alt="" className="categories__img" />
-                <p> ish</p>
+                <p className="categories__desc"> ish</p>
               </a>
             </li>
             <li className="categories__item">
               <a href="#" className="categories__link">
                 <img src={dog} alt="" className="categories__img" />
-                <p>hayvonlar</p>
+                <p className="categories__desc">hayvonlar</p>
               </a>
             </li>
             <li className="categories__item">
