@@ -1,1 +1,121 @@
-/* No CSS *//*# sourceMappingURL=Home.css.map */
+.home {
+  margin: 0;
+  padding-top: 50px;
+}
+
+.home__top {
+  margin: 0;
+  padding: 0;
+}
+
+.home__title {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.home__list {
+  margin: 0;
+  padding-left: 0;
+  padding-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+}
+
+.home__item {
+  -webkit-box-shadow: 2px 2px 3px;
+          box-shadow: 2px 2px 3px;
+  width: 300px;
+  height: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.home__link {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #292929;
+  padding-top: 20px;
+}
+
+.home__images {
+  width: 100%;
+  height: 260px;
+}
+
+.home__box {
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.home__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.home__left-top {
+  margin: 0;
+  padding: 0;
+}
+
+.home__left-top > span {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  margin-right: 8px;
+}
+
+.home__left > p {
+  text-align: start;
+  font-size: 18px;
+}
+
+.home__button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.home__button > img {
+  width: 20px;
+  height: 20px;
+}
+/*# sourceMappingURL=Home.css.map */

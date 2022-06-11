@@ -3,6 +3,7 @@ import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import Search from './Components/SearchBar/Search';
 import Categories from './Components/Categories/Categories';
+import Home from './Pages/Home/Home';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header/>
         <Search/>
         <Categories/>
+        <Home/>
     </div>
   );
 }
