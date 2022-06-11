@@ -6,6 +6,7 @@
   top: 0%;
   left: 0;
   background-color: #002f34;
+  z-index: 10000;
 }
 
 .header a {

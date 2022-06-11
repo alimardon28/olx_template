@@ -1,8 +1,10 @@
-body{
+body {
   margin-top: 90px;
+  background-color: #F2F4F5;
 }
-.container{
+
+.container {
   max-width: 1500px;
-  padding:0px 25px;
+  padding: 0px 25px;
   margin: 0 auto;
 }
