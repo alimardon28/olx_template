@@ -1,1 +1,143 @@
-/* No CSS *//*# sourceMappingURL=Header.css.map */
+.header {
+  margin: 0 auto;
+  padding: 8px 10px;
+  position: fixed;
+  width: 100%;
+  top: 0%;
+  left: 0;
+  background-color: #002f34;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.header__navbar_link {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.header__navbar_link > img {
+  width: 90px;
+  height: 70px;
+}
+
+.header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__item + .header__item {
+  margin-left: 27px;
+}
+
+.header__hamburger__menyu {
+  display: none;
+}
+
+.header__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: aliceblue;
+  font-weight: 600;
+}
+
+.header__select {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.header__select > option {
+  color: #000;
+}
+
+.header__heartb0x {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.header__heartb0x span {
+  position: absolute;
+  top: -7%;
+  right: 0;
+  padding: 0px 6px;
+  background-color: blue;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.header__button {
+  border: none;
+  outline: none;
+  padding: 11px 24px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  border: 4px solid #fff;
+}
+
+.header__button:hover {
+  background-color: #002f34;
+  color: #fff;
+  border: 4px solid #fff;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.bi {
+  color: aliceblue;
+  margin-right: 10px;
+  font-size: 30px;
+}
+/*# sourceMappingURL=Header.css.map */

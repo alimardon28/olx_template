@@ -1,0 +1,102 @@
+.header {
+  margin: 0 auto;
+  padding: 8px 10px;
+  position: fixed;
+  width: 100%;
+  top: 0%;
+  left: 0;
+  background-color: #002f34;
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  &__navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+  }
+  &__navbar_link {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  &__navbar_link > img {
+    width: 90px;
+    height: 70px;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__item + &__item {
+    margin-left: 27px;
+  }
+  &__hamburger__menyu {
+    display: none;
+  }
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+    font-weight: 600;
+  }
+  &__select {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  &__select > option {
+    color: #000;
+  }
+  &__heartb0x {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  &__heartb0x span {
+    position: absolute;
+    top: -7%;
+    right: 0;
+    padding: 0px 6px;
+    background-color: blue;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  &__button {
+    border: none;
+    outline: none;
+    padding: 11px 24px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    border: 4px solid #fff;
+  }
+  &__button:hover {
+    background-color: #002f34;
+    color: #fff;
+    border: 4px solid #fff;
+    transition: all 0.3s ease-in;
+  }
+}
+
+.bi {
+  color: aliceblue;
+  margin-right: 10px;
+  font-size: 30px;
+}
