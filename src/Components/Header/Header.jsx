@@ -1,6 +1,6 @@
 import React from "react";
 import "../Header/Header.scss";
-import { Link } from "react-router-dom";
+import { Link , NavLink } from "react-router-dom";
 import logo from "../../assets/svg/olxLogo.png";
 import chat from "../../assets/svg/chat.svg";
 import heart from "../../assets/svg/heart.svg";
@@ -12,9 +12,9 @@ const Header = () => {
     <div className="header">
       <div className="container">
         <nav className="header__navbar">
-          <a className="header__navbar_link" to="/">
+          <NavLink className="header__navbar_link" to="/">
             <img src={logo} alt="olx logo images" />
-          </a>
+          </NavLink>
           <ul className="header__list">
             <li className="header__hamburger__menyu">
               <img src={hamburger} alt="hamburger images" />
