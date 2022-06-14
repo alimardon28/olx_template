@@ -35,8 +35,8 @@
 }
 
 .home__item {
-  -webkit-box-shadow: 2px 2px 3px;
-          box-shadow: 2px 2px 3px;
+  -webkit-box-shadow: 2px 2px 3px #fff;
+          box-shadow: 2px 2px 3px #fff;
   width: 300px;
   height: 100%;
   padding: 15px;

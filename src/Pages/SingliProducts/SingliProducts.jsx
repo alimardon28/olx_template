@@ -29,8 +29,6 @@ const SingliProducts = () => {
       <div className="container singliProducts__container">
         <div className="div">
           {dataProducts?.map((data) => {
-            console.log(data);
-            return (
               <>
                 <div className="singliProducts__left">
                   <div className="singliProducts__divs">
@@ -93,7 +91,6 @@ const SingliProducts = () => {
                   </div>
                 </div>
               </>
-            );
           })}
         </div>
       </div>
