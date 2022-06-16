@@ -17,6 +17,7 @@ const SingliProducts = () => {
   const { products } = useContext(Context);
   const { withLove, setWithLove } = useContext(Context);
   const { savedCorzinka, setSavedCorzinka } = useContext(Context);
+  console.log(dataProducts);
 
   useEffect(() => {
     fetch(`http://localhost:3000/posts/${date.productId}`)
@@ -27,9 +28,10 @@ const SingliProducts = () => {
   return (
     <div className="singliProducts">
       <div className="container singliProducts__container">
-        <div className="div">
+        <div className="singliProducts__div">
           {dataProducts?.map((data) => {
-              <>
+           
+              <div className="singliProducts__box">
                 <div className="singliProducts__left">
                   <div className="singliProducts__divs">
                     <div className="singliProducts__left__imagesBox">
@@ -90,7 +92,7 @@ const SingliProducts = () => {
                     </div>
                   </div>
                 </div>
-              </>
+              </div>
           })}
         </div>
       </div>
