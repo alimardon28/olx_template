@@ -15,6 +15,20 @@
           justify-content: space-between;
 }
 
+.singliProducts__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 .singliProducts__divs {
   padding: 20px;
 }
@@ -27,6 +41,7 @@
   padding-bottom: 40px;
   width: 650px;
   height: 522px;
+  overflow-x: scroll;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -38,8 +53,12 @@
           justify-content: space-between;
 }
 
+.singliProducts__left__imagesBox::-webkit-scrollbar {
+  display: none;
+}
+
 .singliProducts__left__imagesBox_img {
-  width: 100%;
+  width: 650px;
   height: 100%;
 }
 

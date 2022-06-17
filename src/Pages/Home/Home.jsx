@@ -36,11 +36,13 @@ const Home = () => {
           <h1 className="home__title">PREMIUM E`LONLAR</h1>
           <ul className="home__list">
             {products?.map((item) => {
+              console.log(item.id);
               return (
                 <li className="home__item" key={item.id}>
                   <NavLink to={`/posts/${item.id}`} className="home__link">
                     <img src={item.imgUrl} alt="" className="home__images" />
                   </NavLink>
+
                   <a
                     className="home__link home__links"
                     id="home__link"
@@ -57,10 +59,17 @@ const Home = () => {
                       </div>
                       <p>{item.sum}</p>
                     </div>
-                    <button className="home__button" id={item.id}
+                    <button
+                      className="home__button"
+                      id={item.id}
                       onClick={(e) => hanleClick(e)}
-                      data-id={item.id}>
-                      <img id={item.id} src={item.addSaved ? heartFill : heart} alt="heart images" />
+                      data-id={item.id}
+                    >
+                      <img
+                        id={item.id}
+                        src={item.addSaved ? heartFill : heart}
+                        alt="heart images"
+                      />
                     </button>
                   </div>
                 </li>
