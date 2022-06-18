@@ -31,12 +31,12 @@ const Header = () => {
               </a>
             </li>
             <li className="header__item header__d-block">
-              <a href="#" className="header__link">
+              <NavLink to='/favoiriti' className="header__link">
                 <div className="header__heartb0x">
                   <i className="bi bi-heart"></i>
                   <span>0</span>
                 </div>
-              </a>
+              </NavLink>
             </li>
             <li className="header__item">
               <a href="#" className="header__link">

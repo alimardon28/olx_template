@@ -1,10 +1,12 @@
 import React from 'react';
-import "../Favoirite/Favoirite.scss";``
+import "../Favoirite/Favoirite.scss";
 
 const Favoirite = () => {
     return (
         <div className='favoirite'>
-               <h1>helloo</h1>
+               <div className="container">
+                   
+               </div>
         </div>
     );
 }
