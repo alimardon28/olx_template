@@ -6,8 +6,13 @@ import chat from "../../assets/svg/chat.svg";
 import heart from "../../assets/svg/heart.svg";
 import contact from "../../assets/svg/person.svg";
 import hamburger from "../../assets/images/menu_icon.png";
+import { useContext } from "react";
+import { Context } from "../../Context/Context";
 
 const Header = () => {
+
+  const { withLove } = useContext(Context);
+
   return (
     <div className="header">
       <div className="container">
@@ -34,7 +39,7 @@ const Header = () => {
               <NavLink to='/favoiriti' className="header__link">
                 <div className="header__heartb0x">
                   <i className="bi bi-heart"></i>
-                  <span>0</span>
+                  <span>{withLove.length}</span>
                 </div>
               </NavLink>
             </li>

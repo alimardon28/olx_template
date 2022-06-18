@@ -11,7 +11,6 @@ import location from "../../assets/svg/location.svg";
 
 const SingliProducts = () => {
   const date = useParams();
-  console.log();
 
   const [dataProducts, setDataProducts] = useState([]);
   const { products } = useContext(Context);

@@ -1,0 +1,9 @@
+.productsPages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__images {
+    max-width: 300px;
+    height: 100%;
+  }
+}

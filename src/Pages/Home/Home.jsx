@@ -9,7 +9,6 @@ import { Link, NavLink } from "react-router-dom";
 const Home = () => {
   const { products } = useContext(Context);
   const { setWithLove } = useContext(Context);
-  console.log(products);
 
   const hanleClick = (e) => {
     let id = e.target.id;
@@ -36,8 +35,7 @@ const Home = () => {
           <h1 className="home__title">PREMIUM E`LONLAR</h1>
           <ul className="home__list">
             {products?.map((item) => {
-              console.log(item.id);
-              return (
+                return (
                 <li className="home__item" key={item.id}>
                   <NavLink to={`/posts/${item.id}`} className="home__link">
                     <img src={item.imgUrl} alt="" className="home__images" />

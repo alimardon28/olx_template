@@ -1,1 +1,106 @@
-/* No CSS *//*# sourceMappingURL=Favoirite.css.map */
+.favoirite__list {
+  margin: 0;
+  padding-left: 0;
+  padding-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+}
+
+.favoirite__item {
+  -webkit-box-shadow: 2px 2px 3px #fff;
+          box-shadow: 2px 2px 3px #fff;
+  width: 300px;
+  height: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.favoirite__link {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #292929;
+  padding-top: 20px;
+}
+
+.favoirite__images {
+  width: 100%;
+  height: 290px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.favoirite__box {
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.favoirite__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.favoirite__left-top {
+  margin: 0;
+  padding: 0;
+}
+
+.favoirite__left-top > span {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  margin-right: 8px;
+}
+
+.favoirite__left > p {
+  text-align: start;
+  font-size: 18px;
+}
+
+.favoirite__button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.favoirite__button > img {
+  width: 20px;
+  height: 20px;
+}
+/*# sourceMappingURL=Favoirite.css.map */
