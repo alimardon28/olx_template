@@ -5,6 +5,8 @@ import heartFill from "../../assets/svg/heart-fill.svg";
 import { useContext } from "react";
 import { Context } from "../../Context/Context";
 import { Link, NavLink } from "react-router-dom";
+import SearchBar from '../../Components/SearchBar/Search';
+import Categories from "../../Components/Categories/Categories";
 
 const Home = () => {
   const { products } = useContext(Context);
@@ -29,7 +31,10 @@ const Home = () => {
   };
 
   return (
+
     <div className="home">
+<SearchBar/>
+<Categories />
       <div className="container">
         <div className="home__top">
           <h1 className="home__title">PREMIUM E`LONLAR</h1>

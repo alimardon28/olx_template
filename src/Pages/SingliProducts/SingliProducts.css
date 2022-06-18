@@ -254,4 +254,10 @@
   margin: 0;
   padding: 0;
 }
+
+.singliProducts__left__elements_span {
+  font-size: 40px;
+  font-weight: 800;
+  color: #021d09;
+}
 /*# sourceMappingURL=SingliProducts.css.map */

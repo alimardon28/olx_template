@@ -3,6 +3,7 @@ import "../SingliProducts/SingliProducts.scss";
 import { useContext, useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { Context } from "../../Context/Context";
+import SearchBar from "../../Components/SearchBar/Search";
 import heart from "../../assets/svg/heart.svg";
 import heartFill from "../../assets/svg/heart-fill.svg";
 import contacts from "../../assets/images/contacts.png";
@@ -13,7 +14,6 @@ const SingliProducts = () => {
   const date = useParams();
 
   const [dataProducts, setDataProducts] = useState([]);
-  const { products } = useContext(Context);
 
   useEffect(() => {
     fetch(`http://localhost:3000/posts/${date.productId}`)
@@ -23,6 +23,7 @@ const SingliProducts = () => {
 
   return (
     <div className="singliProducts">
+      <SearchBar />
       <div className="container singliProducts__container">
         <div className="singliProducts__div">
           <div className="singliProducts__box">
@@ -54,6 +55,7 @@ const SingliProducts = () => {
                       <img src={heart} alt="heart images" />
                     </button>
                   </div>
+                  <span className="singliProducts__left__elements_span">{dataProducts.sum}</span>
                   <h3 className="singliProducts__left__elements_title">
                     TAVSIF
                   </h3>
